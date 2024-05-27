@@ -5,7 +5,6 @@ vps2parch is a shell script designed to transform any Linux-based VPS into a Par
 ## Features
 
 - Converts any Linux-based VPS to ParchLinux.
-- Utilizes common tools like `curl`, `tar`, `wget`, and `aria2`.
 - Automates the download and installation process.
 - Easy to use and minimal user interaction required.
 
