@@ -45,13 +45,13 @@ sudo pacman -Syu curl tar wget aria2
 1. Clone the repository or download the script directly:
 
     ```sh
-    git clone https://github.com/yourusername/vps2parch.git
+    git clone https://github.com/parchlinux/vps2parch.git
     ```
 
     or
 
     ```sh
-    wget https://github.com/parchlinux/vps2parch/raw/main/vps2parch.sh
+    wget https://github.com/parchlinux/vps2parch/raw/main/vps2parch
     ```
 
 2. Navigate to the directory containing the script:
@@ -63,7 +63,7 @@ sudo pacman -Syu curl tar wget aria2
 3. Make the script executable:
 
     ```sh
-    chmod +x vps2parch.sh
+    chmod +x vps2parch
     ```
 
 ## Usage
@@ -71,7 +71,7 @@ sudo pacman -Syu curl tar wget aria2
 Run the script with root privileges to begin the conversion process:
 
 ```sh
-sudo ./vps2parch.sh
+sudo ./vps2parch
 ```
 
 The script will guide you through the necessary steps to complete the installation. It will download the required ParchLinux files, extract them, and set up the system on your VPS.
@@ -83,7 +83,7 @@ The script will guide you through the necessary steps to complete the installati
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+See the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
