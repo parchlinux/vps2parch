@@ -258,7 +258,7 @@ configure_network() {
 		fi >> /etc/netctl/default
 		netctl enable default
 	fi
-
+	dhclient
 	systemctl enable sshd
 }
 
