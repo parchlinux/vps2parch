@@ -51,7 +51,7 @@ sudo pacman -Syu curl tar wget aria2
     or
 
     ```sh
-    wget https://github.com/parchlinux/vps2parch/raw/main/vps2parch
+    wget https://github.com/parchlinux/vps2parch/raw/master/vps2parch
     ```
 
 2. Navigate to the directory containing the script:
